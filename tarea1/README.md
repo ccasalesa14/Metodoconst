@@ -69,7 +69,35 @@ Quarteroni, A., & Saleri, F. (2009). *Cálculo científico con MATLAB y Octave*.
 
 Kincaid, D., & Cheney, W. (2012). *Análisis numérico y computación* (6.ª ed.). Cengage Learning.
 
-Uso de herramientas de inteligencia artificial.
 
+Ejercicio 4. Programas en C, Python y GNU Octave
+Programa 1. Suma de dos números
+
+Se realizaron tres versiones de un programa que suma dos números: una en C, otra en Python y otra en GNU Octave. Si no se proporcionan argumentos, se utilizan los valores 0.1 y 0.2. También es posible ingresar dos números al ejecutar el programa.
+Ejecución en el contenedo
+python3 suma.py
+python3 suma.py 5 7
+
+C
+gcc suma.c -o suma
+./suma
+./suma 5 7
+
+GNU Octave
+octave --quiet suma.m
+octave --quiet suma.m 5 7
+
+Resultado y precisión numérica
+Al sumar 0.1 y 0.2, los tres programas muestran 0.30000000000000004 cuando se imprime el resultado con 17 cifras significativas. Esto ocurre porque los números decimales no siempre pueden representarse exactamente en el sistema binario utilizado por las computadoras. Por ello, el resultado almacenado puede presentar una pequeña diferencia respecto al valor decimal esperado, 0.3.
+En cambio, al sumar 5 y 7, los tres programas muestran el resultado 12. En las pruebas realizadas, los resultados coincidieron en los tres lenguajes.
+
+Programa 2. Calculadora básica en C
+
+Se desarrolló una calculadora que permite realizar suma, resta, multiplicación y división. El programa muestra un menú y continúa funcionando hasta seleccionar la opción de salida. También contempla entradas no numéricas, opciones inválidas y la división entre cero.
+Compilación y ejecución
+gcc calculadora.c -o calculadora
+./calculadora
+
+Uso de herramientas de inteligencia artificial.
 Se utilizaron ChatGPT y Gemini como herramientas de apoyo para organizar la estructura del README, aclarar conceptos relacionados con los métodos numéricos y revisar la redacción y la información sobre las herramientas de programación mencionadas en los libros. El contenido se revisó y ajustó durante la elaboración del trabajo.
 
