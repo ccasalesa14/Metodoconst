@@ -1,0 +1,13 @@
+Ejecutables compilados en C
+
+*.exe
+*.out
+*.o
+
+Archivos temporales de Python
+
+pycache/
+
+Archivos de trabajo de GNU Octave
+
+octave-workspace
