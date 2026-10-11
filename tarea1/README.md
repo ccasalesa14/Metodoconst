@@ -38,7 +38,7 @@ Los entornos matriciales, como MATLAB y GNU Octave, están orientados a operacio
 
 Otra herramienta es el álgebra simbólica, que permite manipular expresiones matemáticas de forma exacta y realizar operaciones como la derivación y la integración simbólicas. Finalmente, bibliotecas como BLAS y LAPACK proporcionan rutinas optimizadas para operaciones de álgebra lineal, como la multiplicación de matrices y la solución de sistemas de ecuaciones.
 
-Las herramientas específicas utilizadas en cada libro dependen de su contenido y de los ejemplos de programación que presenta. Por ello, es necesario identificar los lenguajes y entornos empleados en las obras consultadas para relacionarlos con los métodos numéricos estudiados. Burden y Faires utilizan C o Fortran. Quarteroni y Saleri utilizan MATLAB y GNU Octave.
+En los libros consultados se encuentran diferentes herramientas para estudiar e implementar métodos numéricos. Burden y Faires (2011) presentan los algoritmos principalmente mediante pseudocódigo y ofrecen programas complementarios en distintos lenguajes, como C, Fortran y Java, además de herramientas como MATLAB. Chapra y Canale (2015) incluyen el uso de MATLAB, Excel con VBA y Mathcad. Kincaid y Cheney (2012) presentan algoritmos mediante pseudocódigo y abordan herramientas de programación para su implementación. Por su parte, Nieves y Domínguez (2014) se enfocan en la descripción de algoritmos y pseudocódigo, mientras que Quarteroni y Saleri (2009) desarrollan los métodos de cálculo científico mediante MATLAB y GNU Octave. Estos ejemplos muestran que los métodos numéricos pueden implementarse con diferentes herramientas según las necesidades del problema y el enfoque de cada obra.
 
 4. ¿Qué herramientas usamos en este curso?
 
@@ -66,4 +66,10 @@ Chapra, S. C., & Canale, R. P. (2015). *Métodos numéricos para ingenieros* (7.
 Nieves, A., & Domínguez, F. C. (2014). *Métodos numéricos aplicados a la ingeniería*. Grupo Editorial Patria.
 
 Quarteroni, A., & Saleri, F. (2009). *Cálculo científico con MATLAB y Octave*. Springer.
+
+Kincaid, D., & Cheney, W. (2012). *Análisis numérico y computación* (6.ª ed.). Cengage Learning.
+
+Uso de herramientas de inteligencia artificial.
+
+Se utilizaron ChatGPT y Gemini como herramientas de apoyo para organizar la estructura del README, aclarar conceptos relacionados con los métodos numéricos y revisar la redacción y la información sobre las herramientas de programación mencionadas en los libros. El contenido se revisó y ajustó durante la elaboración del trabajo.
 
